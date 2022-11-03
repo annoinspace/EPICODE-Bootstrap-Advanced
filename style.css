@@ -51,3 +51,20 @@
 .background-color {
   background-color: rgb(79, 71, 101);
 }
+#deal-of-the-day {
+  width: 100%;
+}
+
+#daily-destination {
+  max-width: 66%;
+}
+#daily-destination-info {
+  width: 33%;
+}
+
+/* .img-66 {
+  width: 66%;
+} */
+.divider {
+  height: 3px;
+}
