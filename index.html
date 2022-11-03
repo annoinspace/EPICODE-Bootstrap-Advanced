@@ -24,7 +24,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#weekly-deals">Weekly Deals</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -65,10 +65,10 @@
         </div>
       </nav>
       <div class="container pr-0 pl-0 mt-5">
-        <div class="jumbotron">
+        <div class="jumbotron background-color text-white">
           <div class="row">
-            <div class="col-6">
-              <h1 class="display-4">OOTW Holidays</h1>
+            <div class="col-sm-12 col-lg-6">
+              <h1 class="display-3">OOTW Holidays</h1>
               <p class="lead">
                 Out Of This World Travel, for those who want to escape the
                 planet!
@@ -81,7 +81,7 @@
                 >
               </p>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
               <div>
                 <img
                   src="./assets/Hyperspace - Outer Space.svg"
@@ -94,13 +94,27 @@
         </div>
       </div>
       <!-- jumbotron ends here -->
-      <div class="container mt-5 deals-of-the-week">
+      <div
+        id="weekly-deals"
+        class="container background-color mt-5 deals-of-the-week text-white"
+      >
         <div class="row">
           <div class="col-12">
-            <h2 class="text-white mt-4 mb-4">Deals Of The Week</h2>
+            <h2
+              id="deal-header"
+              class="text-white mt-4 mb-5 display-4 text-center"
+            >
+              Deals Of The Week
+            </h2>
+            <img
+              class="d-sm-none d-md-none d-lg-block"
+              id="hand-grip"
+              src="./assets/Hands - Grip.svg"
+              alt="hand gripping money"
+            />
           </div>
-          <div class="col-3">
-            <div class="card">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
               <h4 class="text-center pt-2">The Moon</h4>
               <div class="img-container">
                 <img
@@ -118,8 +132,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
               <h4 class="text-center pt-2">Mars</h4>
               <div class="img-container">
                 <img
@@ -137,14 +151,17 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
               <h4 class="text-center pt-2">Milky Way</h4>
-              <img
-                src="./assets/nasa-pd4lo70LdbI-unsplash.jpg"
-                class="card-img-top img-fluid"
-                alt="earth's moon"
-              />
+              <div class="img-container">
+                <img
+                  src="./assets/william-zhang-hqKPgEVEc-8-unsplash.jpg"
+                  class="card-img-top img-fluid"
+                  alt="earth's moon"
+                />
+              </div>
+
               <div class="card-body">
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -153,11 +170,11 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card">
-              <h4 class="text-center pt-2">Jupiter</h4>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
+              <h4 class="text-center pt-2">Free Floating</h4>
               <img
-                src="./assets/nasa-pd4lo70LdbI-unsplash.jpg"
+                src="./assets/nasa-Yj1M5riCKk4-unsplash.jpg"
                 class="card-img-top img-fluid"
                 alt="earth's moon"
               />
@@ -171,6 +188,20 @@
           </div>
         </div>
       </div>
+      <!-- weekly deals ene here -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div></div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2"></div>
+          <div class="col-sm-6 col-md-4 col-lg-2"></div>
+          <div class="col-sm-6 col-md-4 col-lg-2"></div>
+          <div class="col-sm-6 col-md-4 col-lg-2"></div>
+          <div class="col-sm-6 col-md-4 col-lg-2"></div>
+        </div>
+      </div>
+      <!-- summer destinations ends here -->
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

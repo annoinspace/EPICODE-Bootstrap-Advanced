@@ -14,9 +14,17 @@
 }
 
 .deals-of-the-week {
-  background-color: rosybrown;
   padding-right: 15px;
   padding-left: 15px;
+}
+#deal-header {
+  position: relative;
+}
+#hand-grip {
+  position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: 0px;
 }
 
 .card img {
@@ -27,6 +35,19 @@
 }
 
 .card {
-  min-height: 445px;
-  background-color: rgba(255, 255, 0, 0.5);
+  min-height: 450px;
+  background-color: rgba(109, 214, 198, 0.5);
+}
+
+/* .img-container {
+  max-height: 300px;
+} */
+
+/* .img-container img {
+  object-fit: cover;
+  overflow: hidden;
+} */
+
+.background-color {
+  background-color: rgb(79, 71, 101);
 }
